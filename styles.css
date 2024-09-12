@@ -1,0 +1,165 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #388E3C;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Hero Section (App Overview) */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: #ffffff;
+    border-bottom: 4px solid #f0f0f0;
+}
+
+.hero img.app-mockup {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin-top: 20px;
+    color: #555;
+}
+
+/* App Features Section */
+.app-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+.app-features h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card i {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Buttons */
+a.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+a.button:hover {
+    background-color: #388E3C;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Developer Section */
+#developer {
+    padding: 40px;
+    background-color: #ffffff;
+    border-top: 4px solid #f0f0f0;
+}
+
+#developer h2 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+#developer p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* Call-to-Action Section */
+#cta {
+    padding: 40px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+#cta h2 {
+    font-size: 2.5em;
+}
+
+#cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#cta a.button {
+    margin: 0 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
